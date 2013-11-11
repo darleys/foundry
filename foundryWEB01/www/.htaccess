@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+   RewriteRule ^common/(.*) common/$1 [L]
+   RewriteRule ^images/(.*) common/images/$1 [L]
+   RewriteRule ^junk/(.*) /preview@videogroup1?media=$1 [QSA,L]
+   RewriteCond %{REQUEST_FILENAME} !-f
+   RewriteCond %{REQUEST_FILENAME} !-d
+   RewriteRule (.*)/? /index.php?core_request=$1 [QSA,L]
+</IfModule>
+

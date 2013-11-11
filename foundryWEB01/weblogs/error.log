@@ -1,0 +1,139 @@
+[Tue Sep 11 10:55:23 2012] [error] [client 192.168.0.13] PHP Notice:  Undefined index: requireA in /var/hosting/foundry/aggregator.php on line 67
+[Tue Sep 11 10:55:23 2012] [error] [client 192.168.0.13] PHP Notice:  Undefined index: requireA in /var/hosting/foundry/aggregator.php on line 78
+[Tue Sep 11 10:55:23 2012] [error] [client 192.168.0.13] PHP Notice:  Undefined index: Smarty in /var/hosting/foundry/aggregator.php on line 67
+[Tue Sep 11 10:55:23 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 27
+[Tue Sep 11 10:55:23 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 28
+[Tue Sep 11 10:55:23 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 29
+[Tue Sep 11 10:55:23 2012] [error] [client 192.168.0.13] PHP Notice:  Undefined index: Mold_First in /var/hosting/foundry/aggregator.php on line 67
+[Tue Sep 11 10:55:23 2012] [error] [client 192.168.0.13] PHP Notice:  Undefined index: Users_DB in /var/hosting/foundry/aggregator.php on line 67
+[Tue Sep 11 10:55:23 2012] [error] [client 192.168.0.13] PHP Notice:  Undefined index: media_DB in /var/hosting/foundry/aggregator.php on line 67
+[Tue Sep 11 10:55:23 2012] [error] [client 192.168.0.13] PHP Notice:  Undefined index: Customers_DB in /var/hosting/foundry/aggregator.php on line 67
+[Tue Sep 11 10:55:25 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 27
+[Tue Sep 11 10:55:25 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 28
+[Tue Sep 11 10:55:25 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 29
+[Tue Sep 11 10:55:25 2012] [error] [client 192.168.0.13] PHP Notice:  Undefined index: favicon.ico in /var/hosting/foundry01-mymy/www/index.php on line 77
+[Tue Sep 11 10:55:25 2012] [error] [client 192.168.0.13] PHP Warning:  require_once(/var/hosting/foundry01-mymy/www): failed to open stream: Success in /var/hosting/foundry01-mymy/www/index.php on line 77
+[Tue Sep 11 10:55:25 2012] [error] [client 192.168.0.13] PHP Fatal error:  require_once(): Failed opening required '' (include_path='.:/usr/share/php:/usr/share/pear') in /var/hosting/foundry01-mymy/www/index.php on line 77
+[Tue Sep 11 11:05:15 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 27
+[Tue Sep 11 11:05:15 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 28
+[Tue Sep 11 11:05:15 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 29
+[Tue Sep 11 11:05:15 2012] [error] [client 192.168.0.13] PHP Fatal error:  Call to undefined method AI_DB::_detch() in /var/hosting/foundry/aggregator.php(136) : eval()'d code on line 10
+[Tue Sep 11 11:05:22 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 27
+[Tue Sep 11 11:05:22 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 28
+[Tue Sep 11 11:05:22 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 29
+[Tue Sep 11 11:05:41 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 27
+[Tue Sep 11 11:05:41 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 28
+[Tue Sep 11 11:05:41 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 29
+[Tue Sep 11 11:06:02 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 27
+[Tue Sep 11 11:06:02 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 28
+[Tue Sep 11 11:06:02 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 29
+[Tue Sep 11 11:07:12 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 27
+[Tue Sep 11 11:07:12 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 28
+[Tue Sep 11 11:07:12 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 29
+[Tue Sep 11 11:07:25 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 27
+[Tue Sep 11 11:07:25 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 28
+[Tue Sep 11 11:07:25 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 29
+[Tue Sep 11 11:07:28 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 27
+[Tue Sep 11 11:07:28 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 28
+[Tue Sep 11 11:07:28 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 29
+[Tue Sep 11 11:08:03 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 27
+[Tue Sep 11 11:08:03 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 28
+[Tue Sep 11 11:08:03 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 29
+[Tue Sep 11 11:08:03 2012] [error] [client 192.168.0.13] PHP Parse error:  syntax error, unexpected '[' in /var/hosting/foundry01-mymy/www/molds/some01/Mold_First.php on line 32
+[Tue Sep 11 11:08:36 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 27
+[Tue Sep 11 11:08:36 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 28
+[Tue Sep 11 11:08:36 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 29
+[Tue Sep 11 11:15:31 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 27
+[Tue Sep 11 11:15:31 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 28
+[Tue Sep 11 11:15:31 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 29
+[Tue Sep 11 11:16:02 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 27
+[Tue Sep 11 11:16:02 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 28
+[Tue Sep 11 11:16:02 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 29
+[Tue Sep 11 11:16:02 2012] [error] [client 192.168.0.13] PHP Notice:  Undefined index: fruit1 in /var/hosting/foundry/ai/AI_DB.php on line 21
+[Tue Sep 11 11:16:10 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 27
+[Tue Sep 11 11:16:10 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 28
+[Tue Sep 11 11:16:10 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 29
+[Tue Sep 11 11:16:10 2012] [error] [client 192.168.0.13] PHP Notice:  Undefined index: fruit1 in /var/hosting/foundry/ai/AI_DB.php on line 21
+[Tue Sep 11 11:16:48 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 27
+[Tue Sep 11 11:16:48 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 28
+[Tue Sep 11 11:16:48 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 29
+[Tue Sep 11 11:16:48 2012] [error] [client 192.168.0.13] PHP Notice:  Undefined index: fruit1 in /var/hosting/foundry/ai/AI_DB.php on line 21
+[Tue Sep 11 11:17:57 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 27
+[Tue Sep 11 11:17:57 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 28
+[Tue Sep 11 11:17:57 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 29
+[Tue Sep 11 11:18:22 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 27
+[Tue Sep 11 11:18:22 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 28
+[Tue Sep 11 11:18:22 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 29
+[Thu Sep 13 14:31:29 2012] [error] [client 192.168.0.13] PHP Notice:  Undefined index: requireA in /var/hosting/foundry/aggregator.php on line 67
+[Thu Sep 13 14:31:29 2012] [error] [client 192.168.0.13] PHP Notice:  Undefined index: requireA in /var/hosting/foundry/aggregator.php on line 78
+[Thu Sep 13 14:31:29 2012] [error] [client 192.168.0.13] PHP Notice:  Undefined index: Smarty in /var/hosting/foundry/aggregator.php on line 67
+[Thu Sep 13 14:31:29 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 27
+[Thu Sep 13 14:31:29 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 28
+[Thu Sep 13 14:31:29 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 29
+[Thu Sep 13 14:31:29 2012] [error] [client 192.168.0.13] PHP Notice:  Undefined index: Mold_First in /var/hosting/foundry/aggregator.php on line 67
+[Thu Sep 13 14:31:29 2012] [error] [client 192.168.0.13] PHP Notice:  Undefined index: Users_DB in /var/hosting/foundry/aggregator.php on line 67
+[Thu Sep 13 14:31:29 2012] [error] [client 192.168.0.13] PHP Notice:  Undefined index: media_DB in /var/hosting/foundry/aggregator.php on line 67
+[Thu Sep 13 14:31:29 2012] [error] [client 192.168.0.13] PHP Notice:  Undefined index: Customers_DB in /var/hosting/foundry/aggregator.php on line 67
+[Thu Sep 13 14:31:29 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 27
+[Thu Sep 13 14:31:29 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 28
+[Thu Sep 13 14:31:29 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 29
+[Thu Sep 13 14:31:29 2012] [error] [client 192.168.0.13] PHP Notice:  Undefined index: favicon.ico in /var/hosting/foundry01-mymy/www/index.php on line 77
+[Thu Sep 13 14:31:29 2012] [error] [client 192.168.0.13] PHP Warning:  require_once(/var/hosting/foundry01-mymy/www): failed to open stream: Success in /var/hosting/foundry01-mymy/www/index.php on line 77
+[Thu Sep 13 14:31:29 2012] [error] [client 192.168.0.13] PHP Fatal error:  require_once(): Failed opening required '' (include_path='.:/usr/share/php:/usr/share/pear') in /var/hosting/foundry01-mymy/www/index.php on line 77
+[Thu Sep 13 14:31:29 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 27
+[Thu Sep 13 14:31:29 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 28
+[Thu Sep 13 14:31:29 2012] [error] [client 192.168.0.13] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 29
+[Thu Sep 13 14:31:29 2012] [error] [client 192.168.0.13] PHP Notice:  Undefined index: favicon.ico in /var/hosting/foundry01-mymy/www/index.php on line 77
+[Thu Sep 13 14:31:29 2012] [error] [client 192.168.0.13] PHP Warning:  require_once(/var/hosting/foundry01-mymy/www): failed to open stream: Success in /var/hosting/foundry01-mymy/www/index.php on line 77
+[Thu Sep 13 14:31:29 2012] [error] [client 192.168.0.13] PHP Fatal error:  require_once(): Failed opening required '' (include_path='.:/usr/share/php:/usr/share/pear') in /var/hosting/foundry01-mymy/www/index.php on line 77
+[Tue Mar 12 13:09:20 2013] [error] [client 10.1.1.12] PHP Notice:  Undefined index: requireA in /var/hosting/foundry/aggregator.php on line 67
+[Tue Mar 12 13:09:20 2013] [error] [client 10.1.1.12] PHP Notice:  Undefined index: requireA in /var/hosting/foundry/aggregator.php on line 78
+[Tue Mar 12 13:09:20 2013] [error] [client [Tue Mar 12 13:35:54 2013] [error] [client 10.1.1.12] PHP Notice:  Undefined index: requireA in /var/hosting/foundry/aggregator.php on line 67
+[Tue Mar 12 13:35:54 2013] [error] [client 10.1.1.12] PHP Notice:  Undefined index: requireA in /var/hosting/foundry/aggregator.php on line 78
+[Tue Mar 12 13:35:54 2013] [error] [client 10.1.1.12] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /var/hosting/foundry/core/Foundry_DB.php on line 45
+[Tue Mar 12 13:35:54 2013] [error] [client 10.1.1.12] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /var/hosting/foundry/core/Foundry_DB.php on line 46
+[Tue Mar 12 13:35:54 2013] [error] [client 10.1.1.12] PHP Notice:  Undefined index: Smarty in /var/hosting/foundry/aggregator.php on line 67
+[Tue Mar 12 13:35:54 2013] [error] [client 10.1.1.12] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 27
+[Tue Mar 12 13:35:54 2013] [error] [client 10.1.1.12] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 28
+[Tue Mar 12 13:35:54 2013] [error] [client 10.1.1.12] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 29
+[Tue Mar 12 13:35:54 2013] [error] [client 10.1.1.12] PHP Notice:  Undefined index: core_request in /var/hosting/foundry01-mymy/www/index.php on line 72
+[Tue Mar 12 13:35:54 2013] [error] [client 10.1.1.12] PHP Notice:  Undefined index: core_request in /var/hosting/foundry01-mymy/www/index.php on line 81
+[Tue Mar 12 13:35:54 2013] [error] [client 10.1.1.12] PHP Notice:  Undefined index: core_request in /var/hosting/foundry01-mymy/www/index.php on line 82
+[Tue Mar 12 13:35:54 2013] [error] [client 10.1.1.12] PHP Notice:  Undefined index: core_request in /var/hosting/foundry01-mymy/www/index.php on line 83
+[Tue Mar 12 13:35:54 2013] [error] [client 10.1.1.12] PHP Notice:  Undefined index:  in /var/hosting/foundry01-mymy/www/index.php on line 83
+[Tue Mar 12 13:35:54 2013] [error] [client 10.1.1.12] PHP Notice:  Undefined index: core_request in /var/hosting/foundry01-mymy/www/index.php on line 96
+[Tue Mar 12 13:35:54 2013] [error] [client 10.1.1.12] PHP Notice:  Undefined index:  in /var/hosting/foundry01-mymy/www/index.php on line 96
+[Tue Mar 12 13:35:54 2013] [error] [client 10.1.1.12] PHP Warning:  require_once(/var/hosting/foundry01-mymy/www): failed to open stream: No such file or directory in /var/hosting/foundry01-mymy/www/index.php on line 96
+[Tue Mar 12 13:35:54 2013] [error] [client 10.1.1.12] PHP Fatal error:  require_once(): Failed opening required '' (include_path='.:/usr/share/php:/usr/share/pear') in /var/hosting/foundry01-mymy/www/index.php on line 96
+[Tue Mar 12 13:35:55 2013] [error] [client 10.1.1.12] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /var/hosting/foundry/core/Foundry_DB.php on line 45
+[Tue Mar 12 13:35:55 2013] [error] [client 10.1.1.12] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /var/hosting/foundry/core/Foundry_DB.php on line 46
+[Tue Mar 12 13:35:55 2013] [error] [client 10.1.1.12] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 27
+[Tue Mar 12 13:35:55 2013] [error] [client 10.1.1.12] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 28
+[Tue Mar 12 13:35:55 2013] [error] [client 10.1.1.12] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 29
+[Tue Mar 12 13:35:55 2013] [error] [client 10.1.1.12] PHP Notice:  Undefined index: favicon.ico in /var/hosting/foundry01-mymy/www/index.php on line 83
+[Tue Mar 12 13:35:55 2013] [error] [client 10.1.1.12] PHP Notice:  Undefined index: favicon.ico in /var/hosting/foundry01-mymy/www/index.php on line 96
+[Tue Mar 12 13:35:55 2013] [error] [client 10.1.1.12] PHP Warning:  require_once(/var/hosting/foundry01-mymy/www): failed to open stream: No such file or directory in /var/hosting/foundry01-mymy/www/index.php on line 96
+[Tue Mar 12 13:35:55 2013] [error] [client 10.1.1.12] PHP Fatal error:  require_once(): Failed opening required '' (include_path='.:/usr/share/php:/usr/share/pear') in /var/hosting/foundry01-mymy/www/index.php on line 96
+[Tue Mar 12 13:36:25 2013] [error] [client 10.1.1.12] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /var/hosting/foundry/core/Foundry_DB.php on line 45
+[Tue Mar 12 13:36:25 2013] [error] [client 10.1.1.12] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /var/hosting/foundry/core/Foundry_DB.php on line 46
+[Tue Mar 12 13:36:25 2013] [error] [client 10.1.1.12] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 27
+[Tue Mar 12 13:36:25 2013] [error] [client 10.1.1.12] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 28
+[Tue Mar 12 13:36:25 2013] [error] [client 10.1.1.12] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 29
+[Tue Mar 12 13:36:25 2013] [error] [client 10.1.1.12] PHP Warning:  require_once(/var/hosting/foundry01-mymy/www/casts/test/test.php): failed to open stream: No such file or directory in /var/hosting/foundry01-mymy/www/index.php on line 96
+[Tue Mar 12 13:36:25 2013] [error] [client 10.1.1.12] PHP Fatal error:  require_once(): Failed opening required '/var/hosting/foundry01-mymy/www/casts/test/test.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/hosting/foundry01-mymy/www/index.php on line 96
+[Tue Mar 12 13:36:38 2013] [error] [client 10.1.1.12] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /var/hosting/foundry/core/Foundry_DB.php on line 45
+[Tue Mar 12 13:36:38 2013] [error] [client 10.1.1.12] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /var/hosting/foundry/core/Foundry_DB.php on line 46
+[Tue Mar 12 13:36:38 2013] [error] [client 10.1.1.12] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 27
+[Tue Mar 12 13:36:38 2013] [error] [client 10.1.1.12] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 28
+[Tue Mar 12 13:36:38 2013] [error] [client 10.1.1.12] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 29
+[Tue Mar 12 13:36:38 2013] [error] [client 10.1.1.12] PHP Warning:  require_once(/var/hosting/foundry01-mymy/www/casts/test/test.php): failed to open stream: No such file or directory in /var/hosting/foundry01-mymy/www/index.php on line 96
+[Tue Mar 12 13:36:38 2013] [error] [client 10.1.1.12] PHP Fatal error:  require_once(): Failed opening required '/var/hosting/foundry01-mymy/www/casts/test/test.php' (include_path='.:/usr/share/php:/usr/share/pear') in /var/hosting/foundry01-mymy/www/index.php on line 96
+[Tue Mar 12 13:37:08 2013] [error] [client 10.1.1.12] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /var/hosting/foundry/core/Foundry_DB.php on line 45
+[Tue Mar 12 13:37:08 2013] [error] [client 10.1.1.12] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /var/hosting/foundry/core/Foundry_DB.php on line 46
+[Tue Mar 12 13:37:08 2013] [error] [client 10.1.1.12] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 27
+[Tue Mar 12 13:37:08 2013] [error] [client 10.1.1.12] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 28
+[Tue Mar 12 13:37:08 2013] [error] [client 10.1.1.12] PHP Notice:  Use of undefined constant this_dump - assumed 'this_dump' in /var/hosting/foundry01-mymy/www/configs/boot.php on line 29
+[Tue Mar 12 13:37:08 2013] [error] [client 10.1.1.12] PHP Notice:  Undefined index: Mold_First in /var/hosting/foundry/aggregator.php on line 67
+[Tue Mar 12 13:37:08 2013] [error] [client 10.1.1.12] PHP Notice:  Undefined index: Users_DB in /var/hosting/foundry/aggregator.php on line 67
+[Tue Mar 12 13:37:08 2013] [error] [client 10.1.1.12] PHP Notice:  Undefined index: media_DB in /var/hosting/foundry/aggregator.php on line 67
+[Tue Mar 12 13:37:08 2013] [error] [client 10.1.1.12] PHP Notice:  Undefined index: Customers_DB in /var/hosting/foundry/aggregator.php on line 67
