@@ -44,6 +44,8 @@ limitations under the License.
 define('ENC_KEY', 'junk' );
 //CONFIGURE ENCRYPTION
 
+define('PROCESS_IMAGES_LINK','http://[[this_url]]');
+
 	class thisKEYS {
 		const IMAGES_DIR = PROJECT_DIR;
 		//$self::IMAGE_DIR = dirname(dirname(__FILE__)).DS.'common'.DS.'images'.DS;
