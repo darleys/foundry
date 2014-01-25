@@ -31,6 +31,9 @@ limitations under the License.
 	define('UNIQUE_SEPERATOR','!%^*^%!');	
 	define('COMMON_SPACE',CORE_PATH.DS."common");
 
+    //Place to store runtime templates and files
+    define('this_dump',CORE_PATH.DS."common".DS."this_dump");
+
 	//url patterns
 	define('call_foundry_func_sym','()');
 	

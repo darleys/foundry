@@ -69,6 +69,7 @@ header("Cache-Control: no-cache");
      * 1. http://foundry01.darleys.org/testme@mold_first
      * 2. http://foundry01.darleys.org/mold_test::molds
      */
+echo $_REQUEST['core_request'];
     if(!$_REQUEST['core_request']) {
         require_once $casts['index'];
     }else
@@ -116,6 +117,7 @@ header("Cache-Control: no-cache");
     }
     else {
         $core_request=explode("@",$_REQUEST['core_request']);
+
         $thisOBJ = new $core_request[1];
         if(strpos($core_request[0],"(")===false) {
             $thisOBJ->$core_request[0](array_merge($_REQUEST,$_FILES));
@@ -127,4 +129,5 @@ header("Cache-Control: no-cache");
             //call_user_func_array(array($thisOBJ,$aArgs[0]), explode(',', $oArgs));
         }
     }
+
         
