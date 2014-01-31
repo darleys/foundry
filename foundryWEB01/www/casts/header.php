@@ -4,7 +4,7 @@
  *
  * LICENSE
  *
-Copyright 2013 Virtuous Consulting Services
+Copyright 2010 Virtuous Consulting Services
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -21,14 +21,7 @@ limitations under the License.
  * @Owner     Darley Stephen (http://www.darleys.org)
  * @Author     Darley Stephen (http://www.darleys.org)
  */
-class Cast_First extends Foundry_Local_Broker{
-    function getImages() {
-        //$imageRES = json_decode(rawurldecode(base64_decode(Foundry_Curl::doCurl(PROCESS_IMAGES_LINK."/fetchImages@mold_images"))),true);
-        mold_images::fetchImages();
-        include_once CORE_PATH.DS.'casts/header.php';
-        $this->display (TEMPLATES_DIR.DS.'first.tpl');
-        //include_once CORE_PATH.DS.'casts/footer.php';
-    }//END Function getImages
-
-
-}//END Cast_First
+echo base_loader::loadBaseJs();
+echo base_loader::loadSpecialJs();
+echo base_loader::loadBaseCss();
+echo base_loader::loadSpecialCss();

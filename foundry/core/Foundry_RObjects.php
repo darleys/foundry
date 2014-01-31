@@ -40,8 +40,7 @@ class Foundry_RObjects extends ArrayObject {
 
     public static function setInstance(Foundry_RObjects $robjects) {
         if (self::$_robjects !== null) {
-            //require_once 'Zend/Exception.php';
-            //throw new Zend_Exception('Registry is already initialized');
+
         }
 
         self::setClassName(get_class($robjects));
@@ -56,19 +55,16 @@ class Foundry_RObjects extends ArrayObject {
 
     public static function setClassName($robjectsClassName = 'Foundry_RObjects') {
         if (self::$_robjects !== null) {
-            //require_once 'Zend/Exception.php';
-            //throw new Zend_Exception('Registry is already initialized');
+
         }
 
         if (!is_string($robjectsClassName)) {
-            //require_once 'Zend/Exception.php';
-            //throw new Zend_Exception("Argument is not a class name");
+;
         }
 
 
         if (!class_exists($robjectsClassName)) {
-            //require_once 'Zend/Loader.php';
-            //Zend_Loader::loadClass($robjectsClassName);
+
             Foundry_RObjects::getInstance();
         }
 
@@ -84,8 +80,6 @@ class Foundry_RObjects extends ArrayObject {
         $instance = self::getInstance();
 
         if (!$instance->offsetExists($index)) {
-            //require_once 'Zend/Exception.php';
-            //throw new Zend_Exception("No entry is registered for key '$index'");
         }
 
         return $instance->offsetGet($index);

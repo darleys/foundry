@@ -69,7 +69,7 @@ header("Cache-Control: no-cache");
      * 1. http://foundry01.darleys.org/testme@mold_first
      * 2. http://foundry01.darleys.org/mold_test::molds
      */
-echo $_REQUEST['core_request'];
+
     if(!$_REQUEST['core_request']) {
         require_once $casts['index'];
     }else

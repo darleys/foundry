@@ -72,9 +72,11 @@ limitations under the License.
 				$aFiles = glob(THIS_PATH.DS.'*.php');											
 				$caFiles = array_map("strtolower", $aFiles);																	
 				foreach($fileNameFormats as $fileNameFormat){
+                    /*
                     echo "<br>";
                     echo THIS_PATH;
-                    $fIndex = array_search(strtolower(THIS_PATH.DS.sprintf($fileNameFormat, strtolower($className))), array_map('strtolower', $caFiles));
+                    */
+                    $fIndex = array_search(strtolower(THIS_PATH.DS.sprintf($fileNameFormat, strtolower($className))), $caFiles);
 					if($fIndex===0 OR $fIndex>0) {
 						$class_in_root=true;
 						$path = $aFiles[$fIndex];
@@ -99,11 +101,13 @@ limitations under the License.
 						$aFiles = glob($directory.'*.php');											
 						$caFiles = array_map("strtolower", $aFiles);
 						foreach($fileNameFormats as $fileNameFormat){
-							$fIndex = array_search($directory.sprintf($fileNameFormat, strtolower($className)), $caFiles);
+							$fIndex = array_search(strtolower($directory.sprintf($fileNameFormat, strtolower($className))), $caFiles);
+                            /*
                             echo "<br>!!!!!!";
                             echo $directory.sprintf($fileNameFormat, strtolower($className));
                             echo "<pre>";
                             print_r($caFiles);
+                            */
 							if($fIndex===0 OR $fIndex>0) {
 								$path = $aFiles[$fIndex];
 								$requireA[$className]=$path;
@@ -116,8 +120,10 @@ limitations under the License.
 									$_SESSION['requireA']=$requireA;
 								}
 								require_once $path;
+                                /*
                                 echo "<br>@@@@@@@";
                                 echo $path;
+                                */
 								return;
 							}//END IF FOR File Exists 
 							

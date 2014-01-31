@@ -23,8 +23,8 @@ limitations under the License.
  */
 class Mold_Images extends Foundry_Core_Service  {
    public function fetchImages() {
-       $image1 =  Array("id"=>"001","desc"=>"some image 1","title"=>"good");
-       $image2 =  Array("id"=>"002","desc"=>"some image 2","title"=>"good ");
-       return  Array($image1,$image2);
+       $image1 =  Array("id"=>"001","desc"=>"some image 1","title"=>"Car 1","idata"=>serialize(file_get_contents(COMMON_SPACE.DS."images/pic1.jpg")));
+       $image2 =  Array("id"=>"002","desc"=>"some image 2","title"=>"Car 2","idata"=>serialize(file_get_contents(COMMON_SPACE.DS."images/pic2.jpg")));
+       Foundry_Memory::set("testImages",Array($image1,$image2));
    }
 }
