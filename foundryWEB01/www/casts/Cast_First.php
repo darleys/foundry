@@ -22,13 +22,17 @@ limitations under the License.
  * @Author     Darley Stephen (http://www.darleys.org)
  */
 class Cast_First extends Foundry_Local_Broker{
+    function funcCall($funcName) {
+        $this->{$funcName}();
+    }
     function getImages() {
         //$imageRES = json_decode(rawurldecode(base64_decode(Foundry_Curl::doCurl(PROCESS_IMAGES_LINK."/fetchImages@mold_images"))),true);
+
         mold_images::fetchImages();
         include_once CORE_PATH.DS.'casts/header.php';
         $this->display (TEMPLATES_DIR.DS.'first.tpl');
         //include_once CORE_PATH.DS.'casts/footer.php';
     }//END Function getImages
 
-
 }//END Cast_First
+

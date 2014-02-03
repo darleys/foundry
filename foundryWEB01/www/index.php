@@ -58,7 +58,8 @@ header("Cache-Control: no-cache");
      * that will be called when array name is not mentioned)
     */
 	$casts = array('index'=>(dirname(__FILE__)).DS.'casts'.DS.'index.php',
-                   'cast_test'=>(dirname(__FILE__)).DS.'casts'.DS.'test'.DS.'test.php');
+                   'cast_test'=>(dirname(__FILE__)).DS.'casts'.DS.'test'.DS.'test.php',
+                    'mysecret'=>(dirname(__FILE__)).DS.'casts'.DS.'cast_first.php');
     /*
     *the Mold Array contains , the name of the Mold Class and the Method to be called
     *call the Mold using domain/array_key::molds

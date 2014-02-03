@@ -8,4 +8,6 @@ Foundry PHP was tested under Development , Stage and Production environment of b
 
 Start writing your code under Casts and Molds. The Structure of Foundry is simple, it has the core Foundry libraries and a foundryWEB01 directory that is used for you to write your application. Molds are basically  creating a Mold of your custom events, Functions, data access, transactions and integrations. which can be used directly or by the means of Casts, Cast is a place where you write your custom code that uses Mold/Modls and allows users to directly use it.
 
+Calling Casts:
  Example : 1. http://localhost/getImages@cast_first
+ Example : 2. http://localhost/funcCall(getImages)@cast_first
